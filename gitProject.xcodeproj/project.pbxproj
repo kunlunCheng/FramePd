@@ -104,6 +104,7 @@
 		04DE4E7327984018007E44EB /* gitProject */ = {
 			isa = PBXGroup;
 			children = (
+				04DE4EA927984743007E44EB /* code */,
 				04DE4E7427984018007E44EB /* AppDelegate.h */,
 				04DE4E7527984018007E44EB /* AppDelegate.m */,
 				04DE4E7727984018007E44EB /* SceneDelegate.h */,
@@ -135,6 +136,13 @@
 			);
 			path = gitProjectUITests;
 			sourceTree = "<group>";
+		};
+		04DE4EA927984743007E44EB /* code */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = code;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
