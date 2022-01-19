@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name                = "TSP"
-  s.version             = "1.0.1"
+  s.version             = "1.0.2"
 
   s.summary             = "随便"
   s.description         = "必须比summary长"
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.source              = { :git => "https://github.com/kunlunCheng/FramePd.git",:tag => s.version }
   
-  s.source_files        = "FramePd/**/*"
+  s.source_files        = "FramePd/code/*.{h,m}"
 
  # s.frameworks          = "Foundation", "UIKit"
 

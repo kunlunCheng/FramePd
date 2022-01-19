@@ -17,6 +17,7 @@
 		04DE4E912798401A007E44EB /* gitProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DE4E902798401A007E44EB /* gitProjectTests.m */; };
 		04DE4E9B2798401A007E44EB /* gitProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DE4E9A2798401A007E44EB /* gitProjectUITests.m */; };
 		04DE4E9D2798401A007E44EB /* gitProjectUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DE4E9C2798401A007E44EB /* gitProjectUITestsLaunchTests.m */; };
+		04DE4EAC27984C8B007E44EB /* testObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DE4EAB27984C8B007E44EB /* testObj.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		04DE4E962798401A007E44EB /* gitProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DE4E9A2798401A007E44EB /* gitProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitProjectUITests.m; sourceTree = "<group>"; };
 		04DE4E9C2798401A007E44EB /* gitProjectUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitProjectUITestsLaunchTests.m; sourceTree = "<group>"; };
+		04DE4EAA27984C8B007E44EB /* testObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testObj.h; sourceTree = "<group>"; };
+		04DE4EAB27984C8B007E44EB /* testObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testObj.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 		04DE4EA927984743007E44EB /* code */ = {
 			isa = PBXGroup;
 			children = (
+				04DE4EAA27984C8B007E44EB /* testObj.h */,
+				04DE4EAB27984C8B007E44EB /* testObj.m */,
 			);
 			path = code;
 			sourceTree = SOURCE_ROOT;
@@ -277,6 +282,7 @@
 				04DE4E7C27984018007E44EB /* ViewController.m in Sources */,
 				04DE4E7627984018007E44EB /* AppDelegate.m in Sources */,
 				04DE4E872798401A007E44EB /* main.m in Sources */,
+				04DE4EAC27984C8B007E44EB /* testObj.m in Sources */,
 				04DE4E7927984018007E44EB /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
