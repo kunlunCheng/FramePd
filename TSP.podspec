@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
 
-  s.name                = "TS"
-  s.version             = "0.0.2"
+  s.name                = "TSP"
+  s.version             = "1.0.0"
 
-  s.summary             = "test"
-  s.description         = "test"
+  s.summary             = "dfkdjfkdjfkdf"
+  s.description         = "sdsdwdfe"
   s.homepage            = "https://github.com/kunlunCheng/FramePd.git"
   s.license             = "MIT"
   s.author              = { "chengkunlun" => "kunlun1580@163.com" }
